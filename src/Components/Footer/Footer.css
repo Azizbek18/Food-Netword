@@ -1,0 +1,47 @@
+.footer{
+    background-color: rgba(37, 37, 37, 1);
+}
+.footer .container{
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__box{
+    display: flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction: column;
+}
+.footer__logo{
+    margin: 8px 0px 20px;
+}
+.footer__link{
+    padding: 10px 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer__link:hover{
+    color: rgba(220, 120, 11, 1);
+}
+.footer__title{
+    padding: 20px 0px;
+    font-family: Philosopher;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:rgba(255, 255, 255, 0.7);
+}
+.footer__item{
+    padding: 5px 0px;
+}
+.footer_item{
+    padding: 15px 0px;
+    display: flex;
+    gap: 10px;
+}
+

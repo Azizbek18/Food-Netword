@@ -15,13 +15,13 @@ function AppDownland() {
                     There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipmentwith Persons but also  Just Food Stalls with Persons.
                 </p>
                 <div className="appdown__element">
-                    <div className="appdown__icon-apple">
+                    <div className="appdown__icon">
                         <img src="./apple.svg" alt="Apple" className="appdown__pic" />
                         <h4 className="appdown__title-name">
                             App Store
                         </h4>
                     </div>
-                    <div className="appdown__icon-play">
+                    <div className="appdown__icon">
                         <img src="./play.svg" alt="Apple" className="appdown__pic" />
                         <h4 className="appdown__title-name">
                             Google Play

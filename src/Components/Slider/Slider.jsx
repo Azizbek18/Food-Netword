@@ -15,7 +15,7 @@ const material = [
     },
     {
         img:'./avatar.jpg',
-        text: 'You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis praesentium facilis magni ad exercitationem error accusamus sapiente velit fugiat consequuntur, reprehenderit quo quasi!',
         WhitestarImg:'./WhiteStar.svg',
         GoldStar:'./star.svg',
         subtitle:'Leo Meri',
@@ -23,7 +23,7 @@ const material = [
     },
     {
         img:'./avatar.jpg',
-        text: 'You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus nulla maxime exercitationem enim ratione porro fuga quasi, similique repudiandae dignissimos minima minus recusandae?',
         WhitestarImg:'./WhiteStar.svg',
         GoldStar:'./star.svg',
         subtitle:'Augusta W. Reynoso',
@@ -61,13 +61,16 @@ function Slider() {
                 You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.
             </p>
             <div className="slider__box">
-                <IoIosArrowBack  onClick={prevSlide}/>
+                <div className="slider_arrow" onClick={prevSlide}>
+                    <IoIosArrowBack className='slider__arrow'/>
+                </div>
                 <div className="slider__main">
                     <div key={current} className="slider__main-box">
+                        <img src="./orqaFon.svg" alt="Orqa Fon" className="slider__photo" />
                         <div className="slider__element">
                             <img src={box.img} alt="image" className="slider__pic" />
                         </div>
-                        <p className="slider__subtext">
+                        <p className="slider__subtext-name">
                             {box.text}
                         </p>
                         <div className="slider__icon-star">
@@ -86,7 +89,9 @@ function Slider() {
                     </div>
                         
                 </div>
-                <IoIosArrowForward onClick={nextSlide} />
+                <div className="slider_arrow" onClick={nextSlide}>
+                <IoIosArrowForward className='slider__arrow' />
+                </div>
             </div>
         </div>
     </div>

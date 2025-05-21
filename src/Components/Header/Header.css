@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #150C01;
+    opacity: 60%;
+}
+.header__link:hover{
+    color: #DC780B;
+}
+
+.header__button {
+    width: 135px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #DC780B;
+    background-color: #DC780B;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.header__button:hover{
+    background-color: #fff;
+    color: #DC780B;
+    border: 2px solid #DC780B;
+}

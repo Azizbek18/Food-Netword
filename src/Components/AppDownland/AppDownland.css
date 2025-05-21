@@ -1,0 +1,88 @@
+.appdown{
+    background: linear-gradient(to top,white 0% 15% , rgba(251, 241, 231, 0.4) 15% 85% , white 85% 100%);
+}
+.appdown .container {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appdown__left{
+    width: 544px;
+}
+.appdown__text {
+    padding: 5px 0px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 20%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #DC780B;
+}
+
+.appdown__title {
+    font-family: Philosopher;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.63px;
+    letter-spacing: 0%;
+    color: #150C01;
+}
+
+.appdown__subtext {
+    padding: 30px 0px 40px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #150C01;
+    opacity: 70%;
+}
+
+.appdown__element {
+    display: flex;
+    gap: 30px;
+}
+
+.appdown__icon-apple {
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #150C01;
+    gap: 10px;
+}
+
+.appdown__icon-apple .appdown__title-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.appdown__icon-play .appdown__title-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:black;
+}
+
+.appdown__icon-play {
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #150C01; */
+    gap: 10px;
+    border: 2px solid rgb(220, 216, 216);
+}

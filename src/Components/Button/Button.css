@@ -1,0 +1,20 @@
+.main__btn {
+    width: 135px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #DC780B;
+    background-color: #DC780B;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.main__btn:hover{
+    background-color: #fff;
+    color: #DC780B;
+    border: 2px solid #dc770b6e;
+}

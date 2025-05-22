@@ -14,7 +14,7 @@ const material = [
         subtext:'UI&UX DeSIGNER'
     },
     {
-        img:'./avatar.jpg',
+        img:'./ronaldo.png',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis praesentium facilis magni ad exercitationem error accusamus sapiente velit fugiat consequuntur, reprehenderit quo quasi!',
         WhitestarImg:'./WhiteStar.svg',
         GoldStar:'./star.svg',
@@ -22,7 +22,7 @@ const material = [
         subtext:'Developper'
     },
     {
-        img:'./avatar.jpg',
+        img:'./bola.png',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus nulla maxime exercitationem enim ratione porro fuga quasi, similique repudiandae dignissimos minima minus recusandae?',
         WhitestarImg:'./WhiteStar.svg',
         GoldStar:'./star.svg',

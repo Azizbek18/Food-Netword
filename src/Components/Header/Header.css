@@ -84,6 +84,8 @@
 
     .header__list {
         display: none;
+        font-weight: 900;
+        font-size: 20px;
     }
 
     .bars {
@@ -94,7 +96,7 @@
         display: none;
         flex-direction: column;
         gap: 20px;
-        background-color:rgba(220, 120, 11, 1);
+        background-color:rgb(93, 84, 75);
         position: fixed;
         top: 0;
         left: 0;

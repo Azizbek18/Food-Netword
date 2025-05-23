@@ -75,6 +75,9 @@
         padding: 20px 20px;
         max-width: 1024px;
     }
+    .header{
+        padding: 0px 0px;
+    }
 }
 
 
@@ -82,13 +85,18 @@
     .header .container {
         max-width: 768px;
     }
+    .header{
+        padding: 0px 0px;
+    }
 }
 
 @media (max-width:768px) {
     .header .container {
         max-width: 425px;
     }
-
+    .header{
+        padding: 0px 0px;
+    }
     .header__list {
         display: none;
         font-weight: 900;
@@ -139,11 +147,17 @@
         padding: 15px 10px;
         max-width: 375px;
     }
+    .header{
+        padding: 0px 0px;
+    }
 }
 
 @media (max-width:375px) {
     .header .container {
         padding: 15px 10px;
         max-width: 320px;
+    }
+    .header{
+        padding: 0px 0px;
     }
 }

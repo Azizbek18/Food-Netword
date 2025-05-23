@@ -41,8 +41,9 @@
 
 .slider__box {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    position: relative;
 }
 
 .slider__photo{
@@ -110,7 +111,9 @@
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.7);
 }
-.slider_arrow{
+.slider__arrow-left{
+    position: absolute;
+    left: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +122,103 @@
     height: 60px;
     border-radius: 50%;
 }
-.slider_arrow:hover{
+.slider__arrow-right{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.slider__arrow-left:hover{
+    background-color: #dcd8d8;
+}
+.slider__arrow-right:hover{
     background-color: #dcd8d8;
 }
 .slider__arrow{
     width: 30px;
     height: 30px;
+}
+
+
+
+@media(max-width:1140px){
+    .slider .container{
+        padding: 30px 20px 100px;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:1024px) {
+    .slider .container{
+        max-width: 768px;
+    }
+}
+
+@media (max-width:768px) {
+    .slider .container{
+        max-width: 425px;
+    }
+    .slider__subtext{
+        padding: 20px 20px 100px;
+    }
+    .slider__main{
+        width:300px;
+    }
+    .slider__main-box{
+        width: 100%;
+    }
+    .slider__photo{
+        position: absolute;
+        left: 40px;
+        top: -80px;
+        width: 150px;
+        height: 200px;
+    }
+    .slider__arrow-left{
+        left: -15px;
+    }
+    .slider__arrow-right{
+        right: -15px;
+    }
+    .slider__arrow-left{
+        width: 50px;
+        height: 50px;
+    }
+    .slider__arrow-right{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width:425px) {
+    .slider .container{
+        padding: 30px 10px 100px;
+        max-width: 375px;
+    }
+    .slider__main{
+        width: 280px;
+    }
+    .slider__arrow-left{
+        width: 40px;
+        height: 40px;
+    }
+    .slider__arrow-right{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width:375px) {
+    .slider .container{
+        padding: 30px 10px 100px;
+        max-width: 320px;
+    }
+    .slider__main{
+        width: 250px;
+    }
 }

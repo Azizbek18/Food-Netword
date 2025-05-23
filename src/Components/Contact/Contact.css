@@ -77,3 +77,39 @@
     color: rgba(220, 120, 11, 1);
     border: 2px solid rgba(220, 120, 11, 1);
 }
+
+@media(max-width:1140px){
+    .contact .container{
+        padding: 100px 20px;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:1024px) {
+    .contact .container{
+        max-width: 768px;
+    }
+}
+
+@media (max-width:768px) {
+    .contact .container{
+        max-width: 425px;
+    }
+    .contact__form{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    .contact .container{
+        padding: 100px 10px;
+        max-width: 375px;
+    }
+}
+
+@media (max-width:375px) {
+    .contact .container{
+        padding: 100px 10px;
+        max-width: 320px;
+    }
+}

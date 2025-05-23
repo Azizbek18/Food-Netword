@@ -46,3 +46,104 @@
     left: 60px;
     top: 400px;
 }
+
+@media(max-width:1140px){
+    .hero .container{
+        padding: 0px 20px;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:1024px) {
+    .hero .container{
+        max-width: 768px;
+    }
+    .hero__img{
+        position:absolute;
+        left: 0px;
+        top: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero .container{
+        max-width: 425px;
+        position: relative;
+    }
+    .hero__rigth{
+        position: absolute;
+        left: 145px;
+        top: 240px;    
+    }
+    .hero__img{
+        position: absolute;
+        left: -90px;
+        top: 200px;
+    }
+    .hero__pic{
+        width: 300px;
+        height: 250px;
+        transform: rotate(0deg);
+    }
+    .hero__left{
+        width: 100%;
+        z-index: 2;
+    }
+    .hero__title{
+        padding: 80px 0px 120px;
+    }
+    .hero__text{
+        padding: 40px 0px 0px;
+    }
+    .hero__element{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:425px) {
+    .hero .container{
+        padding: 0px 10px;
+        max-width: 375px;
+    }
+    .hero__img{
+        position: absolute;
+        left: -120px;
+        top: 200px;
+        width: 220px;
+    }
+    .hero__pic{
+        position: absolute;
+        left: -100px;
+        width: 250px;
+        height: 250px;
+        transform: rotate(0deg);
+    }
+    .hero__title{
+        padding: 80px 0px 180px;
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size:36px;
+        line-height: 57.6px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+    .hero .container{
+        padding: 0px 10px;
+        max-width: 320px;
+    }
+    .hero__title{
+        padding: 80px 0px 120px;
+        font-family: Philosopher;
+        font-weight: 700;
+        font-size:36px;
+        line-height: 57.6px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+}

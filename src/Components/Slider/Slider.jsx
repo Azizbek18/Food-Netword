@@ -61,7 +61,7 @@ function Slider() {
                 You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.
             </p>
             <div className="slider__box">
-                <div className="slider_arrow" onClick={prevSlide}>
+                <div className="slider__arrow-left" onClick={prevSlide}>
                     <IoIosArrowBack className='slider__arrow'/>
                 </div>
                 <div className="slider__main">
@@ -89,8 +89,8 @@ function Slider() {
                     </div>
                         
                 </div>
-                <div className="slider_arrow" onClick={nextSlide}>
-                <IoIosArrowForward className='slider__arrow' />
+                <div className="slider__arrow-right" onClick={nextSlide}>
+                <IoIosArrowForward className='slider__arrow'/>
                 </div>
             </div>
         </div>
